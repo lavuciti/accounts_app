@@ -1,0 +1,24 @@
+<%- include ('partials/head') %>
+
+<div class="container">
+    <div class="row">
+        <div class="col-10 offset-1">
+            <h3>Add Acount</h3>
+            <div class="row">
+                <div class="col-10 offset-1">
+                   <form action="/save" method="post">
+                        <input type="text" name="first_name" placeholder="First name" class="form-control"> <br>
+                        <input type="text" name="last_name" placeholder="Last name" class="form-control"> <br>
+                        <input type="email" name="email" placeholder="Email" class="form-control"> <br>
+                        <input type="text" name="phone" placeholder="Phone" class="form-control"> <br>
+                        <button class="btn btn-primary form-control">Save</button>
+                   </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<%- include ('partials/footer') %>
+
+    
